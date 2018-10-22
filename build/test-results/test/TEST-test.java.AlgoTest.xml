@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.AlgoTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-10-22T00:09:31" hostname="Scotts-MacBook-Pro.local" time="0.011">
+<testsuite name="test.java.AlgoTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-10-22T20:59:56" hostname="Scotts-MacBook-Pro.local" time="0.011">
   <properties/>
-  <testcase name="testWithOneElement" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testWithOneElement" classname="test.java.AlgoTest" time="0.003"/>
   <testcase name="testForNullInsertion" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testFullQuickSort" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testFullQuickSort" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="testForNullHeap" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testFullMergeSort" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="testFullHeapSort" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="testForNullBubble" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testFullInsertionSort" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testFullInsertionSort" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="testForEmpty" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="testFullBubbleSort" classname="test.java.AlgoTest" time="0.001"/>
-  <testcase name="testForNullSelection" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testFullBubbleSort" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testForNullSelection" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="testFullSelectionSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testForNullMerge" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="testForNullQuick" classname="test.java.AlgoTest" time="0.0"/>

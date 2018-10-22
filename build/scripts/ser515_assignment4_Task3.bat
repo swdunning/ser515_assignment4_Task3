@@ -1,7 +1,7 @@
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
-@rem  Sorting startup script for Windows
+@rem  ser515_assignment4_Task3 startup script for Windows
 @rem
 @rem ##########################################################################
 
@@ -13,7 +13,7 @@ if "%DIRNAME%" == "" set DIRNAME=.
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%..
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and SORTING_OPTS to pass JVM options to this script.
+@rem Add default JVM options here. You can also use JAVA_OPTS and SER515_ASSIGNMENT4_TASK3_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS=
 
 @rem Find java.exe
@@ -63,19 +63,19 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\Sorting.jar;%APP_HOME%\lib\junit-4.12.jar;%APP_HOME%\lib\hamcrest-core-1.3.jar
+set CLASSPATH=%APP_HOME%\lib\ser515_assignment4_Task3.jar;%APP_HOME%\lib\junit-4.12.jar;%APP_HOME%\lib\hamcrest-core-1.3.jar
 
-@rem Execute Sorting
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SORTING_OPTS%  -classpath "%CLASSPATH%" main.java.Main %CMD_LINE_ARGS%
+@rem Execute ser515_assignment4_Task3
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SER515_ASSIGNMENT4_TASK3_OPTS%  -classpath "%CLASSPATH%" main.java.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
 if "%ERRORLEVEL%"=="0" goto mainEnd
 
 :fail
-rem Set variable SORTING_EXIT_CONSOLE if you need the _script_ return code instead of
+rem Set variable SER515_ASSIGNMENT4_TASK3_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
-if  not "" == "%SORTING_EXIT_CONSOLE%" exit 1
+if  not "" == "%SER515_ASSIGNMENT4_TASK3_EXIT_CONSOLE%" exit 1
 exit /b 1
 
 :mainEnd
