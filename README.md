@@ -2,5 +2,5 @@
 SER-515 Assignment 4 – Testing Assignment 
 
 
-Making a change to test Travis-CI
+Test Travis-CI
 
